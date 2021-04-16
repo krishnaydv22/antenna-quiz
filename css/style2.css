@@ -1,0 +1,51 @@
+body {
+    background-color: #578c49;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzzJAK4zxpUMHDck4gUT9fZ_FH-SSvXv-MVQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Press Start 2P";
+    color: #ccffbd;
+    margin-top: 60px;
+
+}
+
+.start-btn {
+    font-size: 20px;
+    margin-top: 150px;
+    font-family: "Audiowide";
+    margin-top: 200px;
+}
+
+button{
+    width: 250px;
+    height: 60px;
+    border-radius: 23px;
+    margin: 40px 20px 25px 20px;
+    font-size: 15px;
+    background-color:#fff;
+}
+
+@media(min-width:768px) {
+    .container {
+        max-height: 600px;
+        min-height: 600px;
+    }
+}
+
+@media (min-width: 1024px){
+    button:hover{
+    background-color: rgb(0, 204, 255);
+    border: none;
+}
+}
+
+.btns:disabled {
+    color: #000;
+}
